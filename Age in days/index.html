@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Age in days</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>YOUR AGE IN SECONDS, MINUTES, HOURS, DAYS & MONTHS.</h2>
+        
+        <div class="flex-box-container-1">
+       
+            <div>
+                <input class="btn btn-primary" type="submit" onclick="change()"/>
+            </div>
+
+            <div>
+                <input class="btn btn-danger" type= "Reset" onclick="reset()"/>
+            </div>
+        
+        </div>
+
+        <br>
+
+        <div class="textbox">
+            <Input type="text" id="age" placeholder="Enter Age"></Input>
+        </div>
+
+        <br>
+
+        <div class="flex-box-container-1">
+
+            <input type="text" id="flex-box-result-1" placeholder="Seconds"> 
+            <input type="text" id="flex-box-result-2" placeholder="Minutes"> 
+            <input type="text" id="flex-box-result-3" placeholder="Hours">
+            <input type="text" id="flex-box-result-4" placeholder="Days">
+            <input type="text" id="flex-box-result-5" placeholder="Weeks">
+            <input type="text" id="flex-box-result-6" placeholder="Months"> 
+
+        </div>
+  
+    </div>
+    
+    <script src="static/js/script.js"></script>
+</body>
+</html>
